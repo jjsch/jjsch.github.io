@@ -97,19 +97,24 @@ margin:0px;}
     padding-top:0px;
 }
 
-.tbl {
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-}
 .tdate {
-    float: left;
-    width: 160px;
+    display:inline-block;
+    vertical-align:top;
+    width:140px;
     text-align: left;
+    margin-left:10px;
 }
 .tmain {
-    margin-bottom: 2px;
-    margin-left: 165px;
+    display:inline-block;
+    max-width:80%;
+    margin-left:5px;
+    margin-bottom: 5px;
+}
+
+.tsecond {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 90%;
 }
 
 .pmain {
@@ -120,11 +125,6 @@ margin:0px;}
 
 .tmain b { color:#003366;}
 
-.tsecond {
-    margin-bottom: 2px;
-    margin-left: 170px;
-    font-size: 90%;
-}
 
 p span.hide{display:none;}
 
