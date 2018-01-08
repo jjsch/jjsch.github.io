@@ -105,9 +105,26 @@ margin:0px;}
     margin-left:10px;
     margin-right:0px;
 }
+
+.tdatep {
+    display:inline-block;
+    vertical-align:top;
+    width:300px;
+    text-align: left;
+    margin-left:10px;
+    margin-right:0px;
+}
+
 .tmain {
     display:inline-block;
     width:80%;
+    margin-left:15px;
+    margin-bottom: 5px;
+}
+
+.tmainp {
+    display:inline-block;
+    width:50%;
     margin-left:15px;
     margin-bottom: 5px;
 }
@@ -124,6 +141,7 @@ margin:0px;}
 }
 
 .tmain b { color:#003366;}
+.tmainp b { color:#003366;}
 
 
 p span.hide{display:none;}
