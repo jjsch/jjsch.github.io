@@ -16,19 +16,8 @@ body{
 
 .leftright {
     width: 100%;
-    margin: auto;
     padding: 10px;
 display: flex;
-}
-.left {
-    background: #e0e0e0;
-    width: 25%;
-    float: left;
-z-index:5;
-position:relative;
-min-width:120px;
-max-width:240px;
-margin-bottom:3%;
 }
 
 .contentcontainer {
@@ -39,7 +28,7 @@ margin-left:-3%;
 }
 
 .right {
-border-style:dotted;
+border-style:dashed;
 border-width:1.5px;
 background: #fefefe;
 margin-top:30px;
@@ -65,14 +54,16 @@ font-weight:400;
 
 
 .left {
-    background: #e0e0e0;
+    background: #fefefe;
     width: 25%;
     float: left;
 z-index:5;
 position:relative;
-min-width:120px;
-max-width:240px;
-margin-bottom:3%;
+min-width:140px;
+max-width:250px;
+border-style:dashed;
+border-width:1.5px;
+margin-bottom:7%;
 }
 
 .portrait{
@@ -110,6 +101,7 @@ margin-bottom: 1em;
     margin:0px;
     padding-left:10px;
     padding-top:0px;
+    padding-right:5px;
 }
 
 .Main {
@@ -204,4 +196,17 @@ p span.hide{display:none;}
 
 p.date{font-style:italic; text-align:right; padding-bottom:0px;}
 
-
+.botright {
+  background:#fefefe;
+float:right;
+position:relative;
+margin-top:-5%;
+margin-right:10%;
+width:40%;
+font-size:70%;
+padding: 8px;
+color: #000000;
+border-style:dashed;
+border-width:1.5px;
+margin-bottom:1%;
+}
