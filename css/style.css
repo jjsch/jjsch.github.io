@@ -125,7 +125,9 @@ margin-bottom: 1em;
     font-size:110%;
 color:#003366;
 padding-bottom:10px;
-margin:0px;}
+margin:0px;
+margin-left:10px;
+}
 
 .Main h1 {
     font-family: 'Open Sans', sans-serif;
