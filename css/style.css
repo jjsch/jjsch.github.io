@@ -215,7 +215,6 @@ p.date{font-style:italic; text-align:right; padding-bottom:0px;}
 .portrait{
     position:static;
     display:block;
-    float:left;
 width:200px;
 height:auto;
 padding:0;
