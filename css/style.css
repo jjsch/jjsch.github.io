@@ -48,8 +48,13 @@ body{
 
 
 .sidebar{
-margin-bottom:40px;
+    margin-bottom:40px;
 }
+
+.sidebar-text{
+    display:inline-block;
+}
+
 
 .right {
 min-height:100%;
@@ -61,11 +66,6 @@ padding:0;
 padding-left:150px;
 z-index:0;
 box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-}
-
-@media screen and (min-width: 601px) and (max-width:1000px) {
-    .left{width:150px;}
-    .right{margin-left:100px;padding-left:80px;}
 }
 
 .content {
@@ -175,6 +175,14 @@ p span.hide{display:none;}
 
 p.date{font-style:italic; text-align:right; padding-bottom:0px;}
 
+@media screen and (min-width: 601px) and (max-width:1000px) {
+    .left{width:150px;}
+    .right{margin-left:100px;padding-left:80px;}
+    .sidebar{font-size:80%;}
+    .Name{font-size:140%;}
+}
+
+
 @media screen and (max-width: 600px)
 {
 
@@ -213,20 +221,21 @@ p.date{font-style:italic; text-align:right; padding-bottom:0px;}
 }
 
 .portrait{
+    float:left;
     position:static;
-    display:block;
-width:200px;
-height:auto;
-padding:0;
-margin:0;
-margin-right:15px;
-z-index:10;
-box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    display:inline-block;
+    width:45%;
+    max-width:200px;
+    height:auto;
+    padding:0;
+    margin:0;
+    margin-right:15px;
+    z-index:10;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
 .sidebar{
     position:static;
-    display:block;
     padding:0;
     margin:20px 0px 20px 20px;
     padding-top:0px;
@@ -235,14 +244,13 @@ box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 
 .sidebar p {padding:0 0 10px 0;margin:0;}
 
-
 .right {
-position:static;
+    position:static;
     display:block;
-box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-width:100%;
-margin:0px;
-padding:0;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    width:100%;
+    margin:0px;
+    padding:0;
 }
 
 .content {
@@ -263,10 +271,10 @@ padding:0;
     font-weight:400;
 }
 
-li{
-margin-left:1em;
-margin-right:0.5em;
-margin-bottom: 1em;
+li {
+    margin-left:1em;
+    margin-right:0.5em;
+    margin-bottom: 1em;
 }
 
 }
