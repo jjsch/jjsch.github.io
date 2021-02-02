@@ -224,7 +224,7 @@ p.date{font-style:italic; text-align:right; padding-bottom:0px;}
     float:left;
     position:static;
     display:inline-block;
-    width:45%;
+    width:12em;
     max-width:200px;
     height:auto;
     padding:0;
